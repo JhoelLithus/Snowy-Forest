@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Winter Landscape: Fichero Fuente Shape.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="un-abeto-naturaleza-el-bosque-10325857.jpg"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Winter Landscape
+   &#160;<span id="projectnumber">01</span>
+   </div>
+   <div id="projectbrief">Snowy Forest</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Shape.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_shape_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SHAPE_H_</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SHAPE_H_</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include&lt;iostream&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_tree_8h.html">Tree.h</a>&quot;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_flower_8h.html">Flower.h</a>&quot;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_particle_8h.html">Particle.h</a>&quot;</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">using namespace </span>std;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_abstract_simple.html">   26</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_abstract_simple.html">AbstractSimple</a></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="class_tree.html">Tree</a>* getTree()=0;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="class_flower.html">Flower</a>* getFlower()=0;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="class_snow.html">Snow</a>* getSnow()=0;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    </div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;};</div><div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="class_paint_elaborado.html">   44</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_paint_elaborado.html">PaintElaborado</a>:<span class="keyword">public</span> <a class="code" href="class_abstract_simple.html">AbstractSimple</a></div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="class_paint_elaborado.html#abaa86a2ff7ea9200eef2e000e1ee9bc7">   50</a></span>&#160;        <a class="code" href="class_tree.html">Tree</a>* <a class="code" href="class_paint_elaborado.html#abaa86a2ff7ea9200eef2e000e1ee9bc7">getTree</a>()</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        {</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <a class="code" href="class_tree.html">Tree</a>* tree;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <a class="code" href="class_t_director.html">TDirector</a> Tdirector;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            tree = Tdirector.getBuilder();</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <span class="comment">//tree-&gt;Draw(t);</span></div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            </div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="keywordflow">return</span> tree;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        }</div><div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="class_paint_elaborado.html#a67f3983a3aa69376424208afaadc062d">   62</a></span>&#160;        <a class="code" href="class_flower.html">Flower</a>* <a class="code" href="class_paint_elaborado.html#a67f3983a3aa69376424208afaadc062d">getFlower</a>()</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        {</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            <a class="code" href="class_flower.html">Flower</a>* flower;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <a class="code" href="class_director.html">Director</a> director;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            flower=director.getBuilder();</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="comment">//flower-&gt;Draw(t);</span></div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                </div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <span class="keywordflow">return</span> flower;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        }</div><div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="class_paint_elaborado.html#af14e00829a13a93b28f137f7dd20474d">   74</a></span>&#160;        <a class="code" href="class_snow.html">Snow</a>* <a class="code" href="class_paint_elaborado.html#af14e00829a13a93b28f137f7dd20474d">getSnow</a>()</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        {</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <a class="code" href="class_snow.html">Snow</a> *snow = <span class="keyword">new</span> <a class="code" href="class_snow.html">Snow</a>(15);</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <span class="keywordflow">return</span> snow;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        }</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        </div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;};</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="class_paint_elaborado_html_a67f3983a3aa69376424208afaadc062d"><div class="ttname"><a href="class_paint_elaborado.html#a67f3983a3aa69376424208afaadc062d">PaintElaborado::getFlower</a></div><div class="ttdeci">Flower * getFlower()</div><div class="ttdef"><b>Definition:</b> Shape.h:62</div></div>
+<div class="ttc" id="class_paint_elaborado_html_af14e00829a13a93b28f137f7dd20474d"><div class="ttname"><a href="class_paint_elaborado.html#af14e00829a13a93b28f137f7dd20474d">PaintElaborado::getSnow</a></div><div class="ttdeci">Snow * getSnow()</div><div class="ttdef"><b>Definition:</b> Shape.h:74</div></div>
+<div class="ttc" id="_flower_8h_html"><div class="ttname"><a href="_flower_8h.html">Flower.h</a></div></div>
+<div class="ttc" id="class_snow_html"><div class="ttname"><a href="class_snow.html">Snow</a></div><div class="ttdef"><b>Definition:</b> Particle.h:126</div></div>
+<div class="ttc" id="class_director_html"><div class="ttname"><a href="class_director.html">Director</a></div><div class="ttdef"><b>Definition:</b> Flower.h:184</div></div>
+<div class="ttc" id="class_paint_elaborado_html_abaa86a2ff7ea9200eef2e000e1ee9bc7"><div class="ttname"><a href="class_paint_elaborado.html#abaa86a2ff7ea9200eef2e000e1ee9bc7">PaintElaborado::getTree</a></div><div class="ttdeci">Tree * getTree()</div><div class="ttdef"><b>Definition:</b> Shape.h:50</div></div>
+<div class="ttc" id="class_tree_html"><div class="ttname"><a href="class_tree.html">Tree</a></div><div class="ttdef"><b>Definition:</b> Tree.h:138</div></div>
+<div class="ttc" id="class_flower_html"><div class="ttname"><a href="class_flower.html">Flower</a></div><div class="ttdef"><b>Definition:</b> Flower.h:103</div></div>
+<div class="ttc" id="class_t_director_html"><div class="ttname"><a href="class_t_director.html">TDirector</a></div><div class="ttdef"><b>Definition:</b> Tree.h:235</div></div>
+<div class="ttc" id="_tree_8h_html"><div class="ttname"><a href="_tree_8h.html">Tree.h</a></div></div>
+<div class="ttc" id="class_paint_elaborado_html"><div class="ttname"><a href="class_paint_elaborado.html">PaintElaborado</a></div><div class="ttdef"><b>Definition:</b> Shape.h:44</div></div>
+<div class="ttc" id="class_abstract_simple_html"><div class="ttname"><a href="class_abstract_simple.html">AbstractSimple</a></div><div class="ttdef"><b>Definition:</b> Shape.h:26</div></div>
+<div class="ttc" id="_particle_8h_html"><div class="ttname"><a href="_particle_8h.html">Particle.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>
